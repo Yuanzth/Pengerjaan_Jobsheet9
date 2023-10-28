@@ -5,12 +5,12 @@ public class ArrayNilai02 {
         Scanner input = new Scanner(System.in);
         int[] nilaiAkhir = new int[10];
 
-        for (int i = 0 ; i < nilaiAkhir.length ; i++)
+        for (int i = 0; i < nilaiAkhir.length; i++)
         {
             System.out.print("Masukkan nilai akhir ke-"+i+" : ");
             nilaiAkhir[i] = input.nextInt();
         }
-        for (int i = 0; i < nilaiAkhir.length ; i++)
+        for (int i = 0; i < nilaiAkhir.length; i++)
         {
             if (nilaiAkhir[i] > 70)
             {
